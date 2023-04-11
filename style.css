@@ -1,0 +1,37 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .heroImage {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 701px) {
+    .heroImage {
+        width: 600px;
+        margin: auto;
+    }
+}
+
+.web-site-title {
+    background-color: #001235;
+    padding: 16px 8px;
+    color: white;
+    margin-top: 0px;
+}
+
+.section-title {
+    background: #007549;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+}
